@@ -5,3 +5,8 @@
 /node_modules
 .DS_Store
 *.pem
+
+# having this file in the repo is a security risk as you can easily forgot the keys in it and commit it.
+# So better to have it in .gitignore and enable it only when you need to add new env variables.
+
+src/Env.elm
